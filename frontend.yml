@@ -1,0 +1,7 @@
+# frontend.yml
+frontend:
+  type: react
+  path: /homeimprovementservice/frontend
+  port: 3000
+  env:
+    - REACT_APP_API_URL=http://localhost:8000

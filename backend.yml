@@ -1,0 +1,11 @@
+# backend.yml
+backend:
+  type: fastapi
+  path: /homeimprovementservice/backend/app/main.py
+  port: 8000
+  env:
+    - DATABASE_URL=postgresql://user:password@localhost:5432/homeimprovement
+    - RABBITMQ_URL=amqp://guest:guest@localhost:5672/
+    - SECRET_KEY=supersecret
+    - ALGORITHM=HS256
+    - ACCESS_TOKEN_EXPIRE_MINUTES=30
