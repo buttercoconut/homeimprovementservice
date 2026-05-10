@@ -3,9 +3,5 @@
 </template>
 
 <script setup>
-// Root component
+// Root component – nothing special here
 </script>
-
-<style>
-/* Global styles can be added here */
-</style>

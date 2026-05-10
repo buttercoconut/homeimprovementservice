@@ -1,8 +1,7 @@
 <template>
   <div class="home-view">
     <h1>Welcome to Home Improvement Service</h1>
-    <p>Get started by requesting a quote for your home renovation.</p>
-    <router-link to="/quote-request">Request a Quote</router-link>
+    <p>Use the navigation above to request a quote or view contractors.</p>
   </div>
 </template>
 
